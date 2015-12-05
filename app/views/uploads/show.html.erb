@@ -1,0 +1,23 @@
+ <p>MEDIUM SIZE: <%= image_tag @upload.cover(:medium) %></p>
+<p>
+  <strong>Song:</strong>
+  <%= @upload.song %>
+</p>
+
+<p>
+  <strong>Album:</strong>
+  <%= @upload.album %>
+</p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @upload.artist %>
+</p>
+
+<!-- <b>Audio:</b>
+  <%= @upload.audio_file_name %> -->
+
+  <!-- <a href="/uploads/<%=@upload.id%>", style="text-decoration:none"><%= @upload.audio_file_name %></a> -->
+
+<%= link_to 'Edit', edit_upload_path(@upload) %> |
+<%= link_to 'Back', uploads_path %>

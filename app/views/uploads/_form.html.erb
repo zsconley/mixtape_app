@@ -1,0 +1,14 @@
+
+  <%= form_for @upload, :html => { :multipart => true } do |form| %>
+    <%= form.label :song%>
+    <%= form.text_field :song%>
+    <%= form.label :album%>
+    <%= form.text_field :album%>
+    <%= form.label :artist%>
+    <%= form.text_field :artist%>
+    <%= form.label 'Upload Cover'%>
+    <%= form.file_field :cover%>
+    <%= form.file_field :audio %>
+    <%= form.submit %>
+    <!-- <%= link_to 'Back', uploads_path, class: 'button' %> -->
+  <% end %>
