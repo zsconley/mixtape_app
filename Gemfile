@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
@@ -60,12 +60,12 @@ end
 
 group :production do
 
-gem 'postgresql'
-#gem 'aws-sdk-v1'
+  gem 'postgresql'
+  #gem 'aws-sdk-v1'
 
-gem 'dotenv-rails'
+  gem 'dotenv-rails'
 
-gem 'aws-sdk'
+  gem 'aws-sdk'
 
 end
 
