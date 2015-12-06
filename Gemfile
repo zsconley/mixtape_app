@@ -67,7 +67,7 @@ group :production do
 
   gem 'dotenv-rails'
 
-  gem 'aws-sdk'
+  gem 'aws-sdk-v1'
 
 end
 
