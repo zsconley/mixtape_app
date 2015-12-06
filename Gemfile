@@ -30,8 +30,6 @@ gem 'devise'
 
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
-gem 'aws-sdk'
-
 # gem 'aws-sdk-v1'
 
 # gem 'dotenv-rails'
@@ -66,6 +64,8 @@ gem 'postgresql'
 #gem 'aws-sdk-v1'
 
 gem 'dotenv-rails'
+
+gem 'aws-sdk'
 
 end
 
