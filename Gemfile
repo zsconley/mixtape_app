@@ -61,6 +61,8 @@ end
 group :production do
 
   gem 'postgresql'
+
+  gem 'rails_12factor'
   #gem 'aws-sdk-v1'
 
   gem 'dotenv-rails'
