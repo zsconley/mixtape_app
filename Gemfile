@@ -60,7 +60,7 @@ end
 
 group :production do
 
-  gem 'pg'
+  gem 'postgresql'
 
   gem 'rails_12factor'
   #gem 'aws-sdk-v1'
