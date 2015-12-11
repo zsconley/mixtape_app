@@ -30,9 +30,9 @@ gem 'devise'
 
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
-# gem 'aws-sdk-v1'
+gem 'dotenv-rails'
 
-# gem 'dotenv-rails'
+gem 'aws-sdk', '~> 1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -61,13 +61,6 @@ end
 group :production do
 
   gem 'postgresql'
-
   gem 'rails_12factor'
-  #gem 'aws-sdk-v1'
-
-  gem 'dotenv-rails'
-
-  gem 'aws-sdk-v1'
-
 end
 
